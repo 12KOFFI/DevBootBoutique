@@ -1,0 +1,67 @@
+
+.nav-color:hover{
+    background-color:#fdfbfa;
+}
+.position-titre{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+
+.nav-color a:hover{
+    background-color: rgb(8, 133, 73);
+    color: white;
+    border-radius: 10px;
+}
+
+.main{
+    margin-top: 160px;
+}
+.policeh1{
+    font-family: "Spicy Rice", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5rem;
+}
+.police{
+    font-family: "Spicy Rice", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+}
+.policelogo{
+    font-family: "Archivo Black", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.carrousize{
+   width: 100%;
+    height: 20rem;
+    background-size: cover;
+}
+.sect{
+    margin-top: 100px;
+}
+.zoomiconfooter:hover{
+    transform: scale(1.2); /* Zoom effect */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.card:hover {
+    transform: scale(1.06); /* Zoom effect */
+    transition: transform 0.3s ease; /* Smooth transition */
+  }
+
+  .colorabout{
+    background-color: #8ff233;
+  }
+  .colorabout0{
+    background-color: #beeb93;
+  }
+
+<<<<<<< HEAD
+ 
+=======
+ 
+>>>>>>> b931eefe08fc041e6ec49ac7fe3f253c89e80f34

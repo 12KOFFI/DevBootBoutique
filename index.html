@@ -1,0 +1,551 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Isaac-Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Spicy+Rice&display=swap" rel="stylesheet">
+  
+  </head>
+
+  <body>
+   
+<header>
+    <nav class="navbar navbar-expand-lg nav-color fixed-top bg-light ">
+        <div class="container fs-5">
+
+          <div class="position-titre">
+    
+      <span class="fs-2 policelogo">  ISAAC-SHOP </span> 
+
+      <div><i class="fa-solid fa-cart-shopping fa-lg fa-bounce" style="color: #ff8308;"></i></div>
+         
+        </div>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle bg-success fw-bold rounded-4 text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Shops
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#homme">Hommes</a></li>
+                  <li><a class="dropdown-item" href="#femme">Femmes </a></li>
+                  <li><a class="dropdown-item" href="#phone">Telephone & tablettes</a></li>
+                  <li><a class="dropdown-item" href="#info">Informatiques</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contact">Contact</a>
+              </li>
+             
+            </ul>
+          </div>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+
+        </div>
+      </nav>
+</header>
+
+
+<main class="main">
+
+
+  <section class="bg-light" id="home">
+    
+    <div class="container-fluid">
+      <div class="row gap-2 d-flex justify-content-center align-items-center" >
+
+       
+
+        <div class="col-md-7 ">
+          <div id="carouselExampleDark" class="carousel carousel-dark slide " data-bs-ride="carousel">
+            <div class="carousel-indicators ">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="1000">
+                <img src="image/carrou1.jpg" class="d-block w-100 carrousize" alt="...">
+                
+              </div>
+              <div class="carousel-item" data-bs-interval="1000">
+                <img src="image/carrou2.jpg" class="d-block w-100 carrousize" alt="...">
+               
+              </div>
+              <div class="carousel-item">
+                <img src="image/carrou1.png" class="d-block w-100 carrousize" alt="...">
+               
+              </div>
+              <div class="carousel-item">
+                <img src="image/corrou11.jpg" class="d-block w-100 carrousize" alt="...">
+               
+              </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+         
+        </div>
+
+        <div class="col-md-4 text-center">
+          <h1 class="policeh1">welcome to isaac-shops</h1>
+            <h2>Découvrez nos produits exclusifs</h2>
+          <p class="fw-light fs-5 mt-2">Explorez notre large gamme d'articles de qualité.</p>
+          <a href=" #About">
+            <button type="button" class="btn btn-outline-success">About-myshops</button>
+          </a>
+         
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+
+  <section class=" text-center sect" id="Shops ">
+    <h2 class="bg-success p-1 rounded-4 mx-5 text-white police mb-4" >my Shops</h2>
+    <p>Bienvenue dans Ma Boutique votre destination pour des produits de qualité 
+      et des offres imbattables. Découvrez vite nos sélections </p>
+
+      
+      <div class="container">
+        <h3 id="homme">Produits-Hommes</h3>
+
+        <div class="row m-5">
+         
+
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4  mb-5 ">
+            <div class="card shadow p-2 mb-5 bg-body-tertiary rounded-3">
+              <img src="image/cardh-image/cardh1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class=" col-sm-12 col-md-6  mb-5 col-lg-4">
+            <div class="card p-2 mb-5 bg-body-tertiary rounded-3">
+              <img src="image/cardh-image/cardh2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6  mb-5 col-lg-4">
+            <div class="card  p-2 mb-5 bg-body-tertiary rounded-3">
+              <img src="image/cardh-image/cardh3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+       
+       
+          <div class=" col-sm-12 col-md-6  mb-5 col-lg-4">
+            <div class="card  p-2 mb-5 bg-body-tertiary rounded-3">
+              <img src="image/cardh-image/cardh4.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class=" col-sm-12 col-md-6  mb-5 col-lg-4">
+            <div class="card  p-2 mb-5 bg-body-tertiary rounded-3">
+              <img src="image/cardh-image/cardh6.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6  mb-5 col-lg-4">
+            <div class="card  p-2 mb-5 bg-body-tertiary rounded-3">
+              <img src="image/cardh-image/cardh7.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      
+
+        <div class="row m-5">
+          <h3 id="femme">Produits-Femmes</h3>
+           <div class="col-sm-12 col-md-6  mb-5 col-lg-4">
+            <div class="card p-2 mb-5 bg-body-tertiary rounded-3">
+              <img src="image/cardf-image/cardf0.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6  mb-5 col-lg-4">
+            <div class="card p-2 mb-5 bg-body-tertiary rounded-3">
+              <img src="image/cardf-image/cardf1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6  mb-5 col-lg-4">
+            <div class="card p-2 mb-5 bg-body-tertiary rounded-3">
+              <img src="image/cardf-image/cardf2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+       
+
+
+          <div class="col-sm-12 col-md-6  mb-5 col-lg-4">
+            <div class="card p-2 mb-5 bg-body-tertiary rounded-3">
+              <img src="image/cardf-image/cardf3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6  mb-5 col-lg-4">
+            <div class="card  p-2 mb-5 bg-body-tertiary rounded-3">
+              <img src="image/cardf-image/cardf4.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6  mb-5 col-lg-4">
+            <div class="card  p-2 mb-5 bg-body-tertiary rounded-3">
+              <img src="image/cardf-image/cardf5.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        
+        <div class="row m-5">
+          <h3 id="phone">Telephone & Tablettes</h3>
+          <div class="col-sm-12 col-md-6  mb-5 col-lg-4">
+            <div class="card  p-2 mb-5 bg-body-tertiary rounded-3">
+              <img src="image/cardphone/phone1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6  mb-5 col-lg-4">
+            <div class="card  p-2 mb-5 bg-body-tertiary rounded-3">
+              <img src="image/cardphone/phone2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6  mb-5 col-lg-4">
+            <div class="card  p-2 mb-5 bg-body-tertiary rounded-3">
+              <img src="image/cardphone/phone3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        
+       
+          <div class=" col-sm-12 col-md-6  mb-5 col-lg-4">
+            <div class="card  p-2 mb-5 bg-body-tertiary rounded-3">
+              <img src="image/cardphone/phone4.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6  mb-5 col-lg-4">
+            <div class="card  p-2 mb-5 bg-body-tertiary rounded-3" >
+              <img src="image/cardphone/phone5.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6  mb-5 col-lg-4">
+            <div class="card  p-2 mb-5 bg-body-tertiary rounded-3">
+              <img src="image/cardphone/phone6.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+    
+     
+      
+        <div class="row m-5">
+          <h3 id="info"> Materiaux-Informatiques</h3>
+          <div class="col-sm-12 col-md-6  mb-5 col-lg-4">
+            <div class="card  p-2 mb-5 bg-body-tertiary rounded-3">
+              <img src="image/cardinfor/infor1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6  mb-5 col-lg-4">
+            <div class="card  p-2 mb-5 bg-body-tertiary rounded-3">
+              <img src="image/cardinfor/infor2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6  mb-5 col-lg-4">
+            <div class="card  p-2 mb-5 bg-body-tertiary rounded-3">
+              <img src="image/cardinfor/infor3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+       
+      
+          <div class="col-sm-12 col-md-6  mb-5 col-lg-4">
+            <div class="card  p-2 mb-5 bg-body-tertiary rounded-3">
+              <img src="image/cardinfor/infor4.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6  mb-5 col-lg-4">
+            <div class="card  p-2 mb-5 bg-body-tertiary rounded-3">
+              <img src="image/cardinfor/infor5.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6  mb-5 col-lg-4">
+            <div class="card  p-2 mb-5 bg-body-tertiary rounded-3">
+              <img src="image/cardinfor/infor6.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+       
+
+      </div>
+    
+
+  </section>
+
+  <section id="About" class="text-center bg-light">
+
+<div class="container-fluid">
+  <h1 class="bg-success p-1 rounded-4 mx-5 text-white police mb-4">Bienvenue chez Isaac-Shops </h1> 
+  <div class="row m-5 d-flex justify-content-center align-items-center"> 
+    <div class="col-sm-12 col-md-6 col-lg-5 my-4  p-2 mb-5  rounded-2 colorabout0 ">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="image/carouabout00.jpg" class="d-block w-100 carrousize" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="image/carrouabout11.jpg" class="d-block w-100 carrousize" alt="...">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-7 my-4 colorabout p-2 mb-5  rounded-3">
+     
+      <h2 class="fw-bold">L'excellence à votre portée</h2>
+      <p class="fs-5">
+        Chez <span class="police text-white">Isaac-Shops</span> <br> nous mettons un point d'honneur à vous offrir une expérience
+         d'achat en ligne unique, alliant qualité, fiabilité et diversité. Découvrez
+          une large sélection de produits soigneusement choisis pour répondre à vos besoins du quotidien.
+           Que vous recherchiez des articles tendance ou des essentiels pratiques, nous sommes là pour vous 
+           satisfaire. Votre confiance est notre priorité, et chaque commande est traitée avec le plus grand
+            soin. Isaac-Shops, c'est la promesse de produits exceptionnels livrés avec passion. 🌟  </p>
+  
+    </div>
+  </div>
+</div>
+   
+  </section>
+
+  <section id="Contact" class="m-5">
+    <h1 class="text-center">Contactez-nous</h1>
+    <p class="text-center">Nous sommes à votre écoute pour répondre à toutes vos questions et vous accompagner dans vos achats.</p>
+    
+    <div class="d-flex justify-content-center  bg-light p-2 rounded-3"> 
+      <form class=" w-75 text-center shadow p-2 mt-5 rounded">
+       <div class="mb-3">
+         <label for="name" class="form-label">Name</label>
+         <input type="text" class="form-control" id="name" aria-describedby="name" required>
+         <div id="name" class="form-text">We'll never share your Name with anyone else.</div>
+       </div>
+       <div class="mb-3">
+         <label for="email" class="form-label">Email address</label>
+         <input type="email" class="form-control" id="email" required>
+       </div>
+ 
+       <div class="form-floating mb-3">
+         <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+         <label for="floatingTextarea2">Message</label>
+       </div>
+       <button type="submit" class="btn btn-primary">Envoyer</button>
+     </form>
+   </div>
+
+  </section>
+
+</main>
+
+<footer class="bg-dark text-white p-5 d-flex justify-content-center align-items-center text-center gap-3">
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center align-items-center gap-2">
+      <div>
+      <span class="fs-2 policelogo">  ISAAC-SHOP </span> 
+    </div>
+      <div><i class="fa-solid fa-cart-shopping fa-lg fa-bounce" style="color: #ff8308;"></i></div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-4">
+      <h5 class="mb-3">Contactez-Nous</h5>
+          <p><i class="fa-regular fa-envelope fa-2xl" style="color: #f6f7f9;"></i>: isaacndri5@gmail.com</p>
+          <p><i class="fa-solid fa-phone fa-2xl" style="color: #dde1e7;"></i> : +225 0141382595</p>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-4">
+      <h5 class="mb-3">suivez nous sur:</h5>
+      <div class="d-flex justify-content-center gap-4">
+      <div>
+        <a href=""><i class="fa-brands fa-facebook fa-2xl zoomiconfooter" style="color: #f4f5f8;"></i></a>
+      </div>
+      <div>
+        <a href=""><i class="fa-brands fa-tiktok fa-2xl zoomiconfooter" style="color: #fcfaf7;"></i></a>
+      </div>
+      <div>
+        <a href="https://wa.me/qr/5T5KMR25XIH7O1" target="_blank"><i class="fa-brands fa-square-whatsapp fa-2xl zoomiconfooter" style="color: #58f14d;"></i></a>
+      </div>
+     
+      <div><a href=""><i class="fa-brands fa-linkedin fa-2xl zoomiconfooter" style="color: #1669f8;"></i></a></div>
+    </div>
+     
+      
+    </div>
+    <div class="text-white text-center mt-5">
+      &copy; 2021 Isaac-Shop 2025. All rights reserved.
+    </div>
+  </div>
+</div>
+
+</footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
