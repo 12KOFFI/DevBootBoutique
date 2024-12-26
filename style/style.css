@@ -7,11 +7,14 @@
    align-items: center;
    gap: 10px;
 }
-
-.nav-color a:hover{
-    background-color: rgb(8, 133, 73);
-    color: white;
-    border-radius: 10px;
+  .itemcolor :hover{
+    color: rgb(3, 114, 25);
+    font-size: 1.3rem;
+}
+.itcolor:hover{
+ background-color: #077514b9;
+  border-radius: 5px;
+  color: white;
 }
 
 .main{
@@ -57,7 +60,7 @@
     background-color: #8ff233;
   }
   .colorabout0{
-    background-color: #beeb93;
+    background-color: #d54a04;
   }
 .articlsize{
   margin-top: 10rem;
