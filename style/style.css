@@ -6,6 +6,7 @@
    display: flex;
    align-items: center;
    gap: 10px;
+   margin-right: 7rem;
 }
   .itemcolor :hover{
     color: rgb(3, 114, 25);
@@ -17,14 +18,12 @@
   color: white;
 }
 
-.main{
-    margin-top: 60px;
-}
+
 .policeh1{
     font-family: "Spicy Rice", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 .police{
     font-family: "Spicy Rice", serif;
